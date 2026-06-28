@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+database/
+
+# Videos
+data/new_videos/*
+data/trained_videos/*
+!data/new_videos/.gitkeep
+!data/trained_videos/.gitkeep
+
+# Images
+data/reference_images/*
+logs/images/*
+data/captured_faces/*
+!data/reference_images/.gitkeep
+!logs/images/.gitkeep
+!data/captured_faces/.gitkeep
+
+# Trained embeddings
+models/embeddings/*
+!models/embeddings/.gitkeep
+
+# Pretrained models (large, downloaded automatically)
+models/pretrained/*.onnx
+
+# Config secrets
+.env
+.env.*
+config/local_config.json
+config/secrets.json
+
+# Logs
+*.log
+logs/
+
+# Reports
+logs/reports/*
+data/exports/*
+!logs/reports/.gitkeep
+!data/exports/.gitkeep
+
+# Temporary files
+*.tmp
+*.bak
+*.cache

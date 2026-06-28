@@ -1,0 +1,39 @@
+{
+    "database": {
+        "path": "database/database.db"
+    },
+    "recognition": {
+        "confidence_threshold": 0.4,
+        "min_log_interval_minutes": 5
+    },
+    "camera": {
+        "device_id": 0,
+        "frame_width": 640,
+        "frame_height": 480
+    },
+    "training": {
+        "max_frames_per_video": 100,
+        "face_detection_confidence": 0.5,
+        "frame_interval": 5
+    },
+    "log": {
+        "image_enabled": true,
+        "save_only_decision_images": true,
+        "interval_minutes": 5
+    },
+    "model": {
+        "name": "buffalo_s",
+        "providers": ["CUDAExecutionProvider", "CPUExecutionProvider"],
+        "root": "models/pretrained"
+    },
+    "paths": {
+        "new_videos": "data/new_videos",
+        "trained_videos": "data/trained_videos",
+        "reference_images": "data/reference_images",
+        "captured_faces": "data/captured_faces",
+        "exports": "data/exports",
+        "log_images": "logs/images",
+        "log_reports": "logs/reports",
+        "system_log": "logs/system.log"
+    }
+}
