@@ -44,7 +44,7 @@ models/embeddings/*
 !models/embeddings/.gitkeep
 
 # Pretrained models (large, downloaded automatically)
-models/pretrained/*.onnx
+models/pretrained/
 
 # Config secrets
 .env
