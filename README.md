@@ -42,3 +42,4 @@ SistemaReconocimiento/
 - **Reconocimiento**: Identificar personas en tiempo real por cámara
 - **Logs**: Registro detallado de todos los eventos
 - **Estadísticas**: Reportes de ingresos y actividad
+- **Alertas**: Envía alertas a WhatsApp
